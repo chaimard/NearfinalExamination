@@ -4,18 +4,21 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:background="#B2ffffff"
         android:padding="15dp"
         android:layout_margin="30dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></LinearLayout>
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
 
 
     <!--Logo-->
     <ImageView
         android:src="@drawable/logo"
         android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 
@@ -33,11 +36,24 @@
 
 
     <!--ID Student-->
-
-
-
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:text="ID 571-00-0001"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <!--Button-->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:textStyle="bold"
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
 
 
 </LinearLayout>
